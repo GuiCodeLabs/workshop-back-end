@@ -1,9 +1,7 @@
-nome = "Guilherme"
-idade = 18
-altura = 1.70
-esta_presente = True
+nota = int(input("Digite a nota do aluno: "))
 
-print(nome, type{nome})
-print(idade, type{idade})
-print(altura, type{altura})
-print(esta_presente, type{esta_presente})
+if nota >= 6:
+    print("Aluno aprovado!")
+
+else:
+    print("Aluno reprovado!")
